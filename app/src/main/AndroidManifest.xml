@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lkl.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".second1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".secondActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.lkl.TimePicker.chronometerActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.lkl.TimePicker.picker"
+            android:exported="true" />
+        <activity
+            android:name="com.lkl.TimePicker.analogClockActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.lkl.TimePicker.calendarViewActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.lkl.TimePicker.timePickerActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.lkl.TimePicker.datePickerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".checkBoxACtivity"
+            android:exported="true" />
+        <activity
+            android:name=".radioButtonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".textviewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".absoluteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tableActivity"
+            android:exported="true" />
+        <activity
+            android:name=".frameLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".firstContainer"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".linerLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".relativeLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

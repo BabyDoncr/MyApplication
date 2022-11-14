@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MyListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="60px"
+    android:paddingRight="60px"
+    tools:context=".UserList">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_gravity="center"
+            android:background="#D6D6EF"
+
+
+            >
+
+            <TextView
+                android:id="@+id/tv_id"
+                android:layout_gravity="center"
+                android:ems="1"
+
+                android:text="1"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_theme"
+                android:layout_gravity="center"
+                android:ems="1"
+                android:text="Java对象"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_article"
+                android:layout_gravity="center"
+                android:ems="1"
+                android:text="Aaaa"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_writer"
+                android:layout_gravity="center"
+                android:ems="1"
+                android:text="张三"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_gravity="center"
+                android:ems="1"
+                android:text="20221111"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_update"
+                android:layout_column="5"
+                android:layout_gravity="center"
+                android:ems="1"
+                android:text="修改"
+                android:clickable="true"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_del"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="6"
+                android:layout_gravity="center"
+                android:ems="1"
+                android:text="删除"
+                android:clickable="true"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

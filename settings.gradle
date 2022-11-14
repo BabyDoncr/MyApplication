@@ -1,0 +1,27 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "My Application"
+include ':app'
+include ':firstapplication'
+include ':First Work'
+include ':firstwork'
+include ':FirstWork'
+include ':my_application'
+include ':myapplication001'
+include ':firstwork2'
+include ':2014490046_liukailong'
+include ':seniorui'
+include ':baseadapter'
+include ':eventanddialogdemo'
+include ':icecrime'
+include ':flag'
+include ':readandwriter'
+include ':sqlite'
+include ':liukailong2014490046test5'
+include ':handlerandrequest'

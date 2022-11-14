@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_date"
+        android:text="DatePicker日期选择">
+
+    </Button>
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_time"
+        android:text="TimePicker时间选择">
+
+    </Button>
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_view"
+        android:text="CalendarView日历视图">
+
+    </Button>
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_clock"
+        android:text="AnalogClock模拟时钟">
+
+    </Button>
+ <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_Chronometer"
+        android:text="Chronometer计时器">
+
+    </Button>
+
+</LinearLayout>

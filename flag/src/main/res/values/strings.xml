@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">作息任务</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forgetPassword">忘记密码</string>
+    <string name="name">昵称</string>
+    <string name="email">邮箱</string>
+    <string name="readyForRegister">确认注册</string>
+    <string name="confirmPassword">确认密码</string>
+
+    <string name="loginAppKey">403d8e441fe3d9e38479ae07f43afc8b</string>
+    <string name="queryInfoAppKey">403d8e441fe3d9cph403d8e441fe3d9e</string>
+    <string name="registerAppKey">403d8e441fe3d9e38479ae07f43afc8b</string>
+    <string name="forgetPasswordAppKey">e0375e8c757f756679bd6df2fed7baec</string>
+    <string name="queryUserInfoAppKey">403d8e441fe3d9cph403d8e441fe3d9e</string>
+    <string name="userInfoDetailsAppKey">6n3d8e6z8fe3d9cph403d8e44x0e3e6d</string>
+    <string name="userCardAppKey">6e8d3n6z8fe3d9phc403d8e446e3e0xd</string>
+    <string name="updateUserAppKey">403d8e441cphd9e39784ae07f43afc8b</string>
+    <string name="updateTaskAppKey">eb2d56ab027714593564ae07f43afc8b</string>
+
+    <string name="aesKey">403d8e420fe3d9cph403d8e381fe3d9e</string>
+
+    <string name="loginSign">/njyFw78EUwWs8LxJieoCA==</string>
+
+    <string name="vipSign">/nkqFs97456Mc8LxV2eiAp==</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="openWeatherApiKey">916d752c71ffb36d77c32089ba636569</string>
+    <string name="task_tip">* 监督玩机可以获得更多积分，同时会记录任务期间玩机次数，并根据玩机次数获取相应积分，更加严格哦！</string>
+    <string name="jackpot_tip">* 次日打卡时间打卡即可根据奖池积分和打卡人数获得积分，每次消耗【10】积分</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="title_activity_edit_task">EditTaskActivity</string>
+    <string name="title_activity_forget">ForgetActivity</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frameLayoutActivity">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_200">
+
+    </TextView>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_200">
+
+    </TextView>
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_500">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@color/teal_700">
+
+    </TextView>
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="更改颜色">
+
+    </Button>
+
+
+
+</FrameLayout>

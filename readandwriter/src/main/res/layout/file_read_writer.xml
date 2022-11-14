@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FileReadAndWriter">
+
+    <EditText
+        android:id="@+id/et_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_readRaw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取raw的资源文件">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_dataWriter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="写入data区域内容">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_dataRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取data的资源文件">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_sdkWriter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="写入sdk区域内容">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_sdkRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取sdk的资源文件">
+
+    </Button>
+
+
+</LinearLayout>

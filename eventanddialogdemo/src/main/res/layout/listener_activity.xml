@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListenerActivity">
+
+    <Button
+        android:id="@+id/btn_innerclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="匿名内部类的方式">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_impl_interface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="实现Listener接口的方式">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_onclick_shuxing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="aa"
+        android:text="Onclick属性方式">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_my_listener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义监听方式">
+
+    </Button>
+
+</LinearLayout>

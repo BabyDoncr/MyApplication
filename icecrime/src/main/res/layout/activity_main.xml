@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jxwoer.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+         <TextView
+
+             android:textColor="@color/colorAccent"
+             android:id="@+id/zhuce"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="注册"
+             android:textSize="20dp"
+             android:clickable="true"
+             android:layout_marginTop="20dp"
+             android:layout_gravity="right"
+             android:layout_marginRight="10dp"
+             />
+
+        <ImageView
+            android:id="@+id/icream"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="80dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/icream"
+
+            />
+         <EditText
+             android:id="@+id/username"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:inputType="textPersonName"
+             android:layout_gravity="center_horizontal"
+             android:layout_margin="10dp"
+             android:drawableLeft="@mipmap/login_password_jpg"
+             android:numeric="integer"
+             android:maxLength="11"
+             android:hint="请输入手机号码"
+             />
+
+            <EditText
+                android:id="@+id/pasword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:inputType="textPassword"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@mipmap/login_username_jpg"
+                android:hint="请输入密码"
+                />
+
+          <TextView
+              android:id="@+id/forgetpass"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+
+              android:textColor="@color/colorAccent"
+              android:clickable="true"
+              android:layout_gravity="right"
+              android:layout_marginRight="15dp"
+              android:textSize="15dp"
+              />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:onClick="post"
+            android:background="@drawable/shape"
+            android:textSize="30dp"/>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+       <View
+           android:layout_margin="15dp"
+           android:layout_width="0dp"
+           android:layout_height="1dp"
+           android:background="@color/colorbutton"
+           android:layout_weight="1"
+          >
+       </View>
+            <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            android:text="第三方登陆" />
+
+            <View
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:background="@color/colorbutton"
+                >
+            </View>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            >
+         <ImageView
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:src="@mipmap/qq"
+             android:layout_marginTop="20dp"
+             android:layout_marginLeft="20dp"
+             />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/weibo"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/weixin"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

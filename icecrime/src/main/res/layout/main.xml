@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--方式一：通过布局文件引入自定义fragment-->
+    <!--<fragment-->
+    <!--android:id="@+id/left_fragment"-->
+    <!--android:name="com.example.hnn.fragments.LeftFragment"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_height="match_parent"/>-->
+
+    <!--<fragment-->
+    <!--android:id="@+id/right_fragment"-->
+    <!--android:name="com.example.hnn.fragments.RightFragment"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_height="match_parent"/>-->
+
+
+    <!--方式二：通过FragmentManager来动态添加fragment-->
+    <!--<FrameLayout-->
+    <!--android:id="@+id/container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--</FrameLayout>-->
+
+    <FrameLayout
+        android:id="@+id/main_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="18dp"
+        android:paddingBottom="2dp"
+        android:background="@drawable/main_navigation_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_rb_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="首页"
+            android:button="@null"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textColor="@drawable/main_rb_text_selector"
+            android:drawableTop="@drawable/main_rb_drawable_home_selector"
+            android:layout_weight="1"/>
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/main_rb_type"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:drawableTop="@drawable/main_rb_drawable_type_selector"-->
+            <!--android:text="分类"-->
+            <!--style="@style/Main_Navigation_rb_style"-->
+            <!--android:layout_weight="1"/>-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/main_rb_community"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:drawableTop="@drawable/main_rb_drawable_community_selector"-->
+            <!--android:text="发现"-->
+            <!--style="@style/Main_Navigation_rb_style"-->
+            <!--android:layout_weight="1"/>-->
+
+        <RadioButton
+            android:id="@+id/main_rb_cart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/main_rb_drawable_cart_selector"
+            android:text="购物车"
+            style="@style/Main_Navigation_rb_style"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/main_rb_user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="个人中心"
+            style="@style/Main_Navigation_rb_style"
+            android:drawableTop="@drawable/main_rb_drawable_user_selector"
+            android:layout_weight="1"/>
+    </RadioGroup>
+</LinearLayout>

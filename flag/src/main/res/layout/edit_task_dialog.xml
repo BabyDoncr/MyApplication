@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/edit_task_dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="任务名称" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gainsboro" />
+
+    <LinearLayout
+        android:id="@+id/edit_task_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/edit_task_dialog_name"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edit_task_dialog_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="@color/grey"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_toStartOf="@id/edit_task_dialog_name_clear"
+                android:hint="请输入新任务名称"
+                android:inputType="text" />
+
+            <ImageView
+                android:id="@+id/edit_task_dialog_name_clear"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:tint="@color/grey"
+                android:src="@drawable/ic_give_up" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/edit_task_dialog_desc"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/edit_task_dialog_desc_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textColor="@color/grey"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:layout_toStartOf="@id/edit_task_dialog_desc_et_clear"
+                android:hint="请输入新任务细节"
+                android:inputType="textMultiLine" />
+
+            <ImageView
+                android:id="@+id/edit_task_dialog_desc_et_clear"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="16dp"
+                android:tint="@color/grey"
+                android:src="@drawable/ic_give_up" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/edit_task_dialog_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TimePicker
+                android:id="@+id/edit_task_dialog_start_pick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/edit_task_dialog_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TimePicker
+                android:id="@+id/edit_task_dialog_end_pick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gainsboro" />
+
+    <LinearLayout
+        android:id="@+id/edit_task_dialog_ok"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定" />
+
+    </LinearLayout>
+
+</LinearLayout>

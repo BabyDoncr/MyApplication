@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/goldenrod">
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/icream"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/user_password"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+
+</LinearLayout>
+     <LinearLayout
+         android:layout_marginTop="220dp"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+         android:background="@color/light_white">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:text="配送地址："
+             android:textSize="25sp"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:id="@+id/useraddress"
+             android:textSize="25sp"
+             />
+     </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30sp"
+            android:text="活动中心"
+            android:background="@color/light_white"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

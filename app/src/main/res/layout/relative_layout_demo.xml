@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".relativeLayoutActivity">
+
+    <TextView
+        android:layout_width="159dp"
+        android:layout_height="84dp"
+        android:layout_above="@+id/button5"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:layout_marginBottom="-3dp"
+        android:text="Hello 劳斯莱斯车主!" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="左上"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+
+        android:text="中上"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+
+        android:text="右上"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:text="左"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:text="中"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_centerInParent="true"
+        android:text="中控件上方"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button5"
+        android:layout_centerInParent="true"
+        android:layout_alignRight="@+id/button5"
+        android:text="中控件下方"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/button5"
+        android:layout_centerInParent="true"
+        android:text="中控件左方"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/button5"
+        android:layout_centerInParent="true"
+        android:text="中控件右方"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+
+        android:text="右"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+
+        android:text="左下"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+
+        android:text="下"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+
+        android:text="右下"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="153dp"></Button>
+
+</RelativeLayout>

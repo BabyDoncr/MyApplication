@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/2014490046_liukailong" />
+            <option value="$PROJECT_DIR$/First Work" />
+            <option value="$PROJECT_DIR$/FirstWork" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/baseadapter" />
+            <option value="$PROJECT_DIR$/eventanddialogdemo" />
+            <option value="$PROJECT_DIR$/firstapplication" />
+            <option value="$PROJECT_DIR$/firstwork" />
+            <option value="$PROJECT_DIR$/firstwork2" />
+            <option value="$PROJECT_DIR$/flag" />
+            <option value="$PROJECT_DIR$/handlerandrequest" />
+            <option value="$PROJECT_DIR$/icecrime" />
+            <option value="$PROJECT_DIR$/liukailong2014490046test5" />
+            <option value="$PROJECT_DIR$/my_application" />
+            <option value="$PROJECT_DIR$/myapplication001" />
+            <option value="$PROJECT_DIR$/readandwriter" />
+            <option value="$PROJECT_DIR$/seniorui" />
+            <option value="$PROJECT_DIR$/sqlite" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

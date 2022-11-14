@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".textviewActivity"
+    >
+
+    <TextView
+        android:layout_width="316dp"
+        android:layout_height="177dp"
+
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:shadowColor="#F9F900"
+        android:shadowDx="10.0"
+        android:shadowDy="10.0"
+        android:shadowRadius="3.0"
+        android:text="HELLO"
+        android:textColor="@color/purple_500"
+        android:textSize="50dp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  点击获得100元  "
+        android:background="@drawable/background"
+        android:textSize="40dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="40dp"
+        >
+
+    </Button>
+
+
+</GridLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_task"
+            android:title="任务"
+            android:icon="@drawable/ic_task_hl" />
+
+        <item
+            android:id="@+id/nav_chart"
+            android:title="统计"
+            android:icon="@drawable/ic_chart_hl" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="设置"
+            android:icon="@drawable/ic_settings" />
+
+        <item
+            android:id="@+id/nav_theme"
+            android:title="主题"
+            android:icon="@drawable/ic_theme" />
+
+    </group>
+
+    <item android:title="账号设置">
+        <menu>
+            <item
+                android:id="@+id/nav_change_pwd"
+                android:title="修改密码"
+                android:icon="@drawable/ic_key"/>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="退出登录"
+                android:icon="@drawable/ic_exit"/>
+        </menu>
+    </item>
+
+
+</menu>
